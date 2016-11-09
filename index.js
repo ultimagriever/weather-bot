@@ -31,7 +31,7 @@ const actions = new class {
     const { text, quickReplies } = response;
 
     return new Promise((resolve, reject) => {
-      console.log('sending...', JSON.stringify(response));
+      console.log(text);
       return resolve();
     });
   }
