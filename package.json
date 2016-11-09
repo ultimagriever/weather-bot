@@ -18,6 +18,8 @@
   "homepage": "https://github.com/ultimagriever/weather-bot#readme",
   "dependencies": {
     "dotenv": "^2.0.0",
-    "node-wit": "^4.1.0"
+    "node-wit": "^4.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.78.0"
   }
 }
