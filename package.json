@@ -1,0 +1,23 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "Weather API for Wit.ai chatterbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultimagriever/weather-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ultimagriever/weather-bot/issues"
+  },
+  "homepage": "https://github.com/ultimagriever/weather-bot#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-wit": "^4.1.0"
+  }
+}
