@@ -7,12 +7,12 @@ let { Wit, interactive } = require('node-wit');
 env.config({ silent: true });
 
 const accessToken = (() => {
-  if (process.argv.length !== 3) {
-    console.log('usage: node index.js <wit-access-token>');
+  if (!process.env.WIT_ACCESS_TOKEN) {
+    console.log('You must provide a WIT_ACCESS_TOKEN in your environment');
     process.exit(1);
   }
 
-  return process.argv.pop();
+  return process.env.WIT_ACCESS_TOKEN;
 })();
 
 const firstEntityValue = (entities, entity) => {
